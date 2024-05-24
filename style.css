@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(100, 144, 220);
+}
+
+header {
+    background-color: rgb(192, 229, 255);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 1.2rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+    color: #2a2a2ae9;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: #2a2a2a;
+    text-decoration: underline;
+}
+
+.blog_pad {
+    background-color: rgb(192, 229, 255);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #2a2a2ae9;
+    font-size: 18px;
+    font-family: Inter;
+    letter-spacing: .8px;
+    width: 80%;
+    height: 30vh;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    margin-top: 1.2rem;
+    outline: none;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #2a2a2ae7;
+    text-transform: capitalize;
+    background-color: rgb(192, 229, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(179, 213, 237);
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+
+.blog {
+    background-color: rgb(192, 229, 255);
+    width: 80%;
+    padding: .8rem;
+    border-radius: 10px;
+    color: #2a2a2ae7;
+}
+
+.fa-solid {
+    float: right;
+    /* background-color: #2a2a2ae7; */
+    padding: 8px;
+    border-radius: 50%;
+    color: #fd4242;
+    font-size: 1.2rem;
+}
